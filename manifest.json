@@ -1,0 +1,22 @@
+{
+	"name":"小黄瓜天气预报",
+	"version":"2.0.0",
+	"manifest_version":2,
+	"description":"根据IP定位当前城市的天气预报，也可以查询全国各城市未来一周的天气预报！真的很腻害呢!更多小黄瓜扩展请访问http://huanggua.sinaapp.com",
+	"background":{
+		"page":"background.html"
+	},
+	"browser_action":{
+		"default_title":"小黄瓜天气预报",
+		"default_icon":"/images/icon_48.png",
+		"default_popup":"popup.html"
+	},
+	"permissions":["http://*/*","https://*/*","idle","management","storage","tabs","unlimitedStorage",
+    "webNavigation","notifications"],
+	"icons":{
+		"128":"/images/icon_128.png",
+		"48":"/images/icon_48.png",
+		"16":"/images/icon_16.png"
+	},
+	"update_url":"http://upext.chrome.360.cn/intf.php?method=ExtUpdate.query"
+}
